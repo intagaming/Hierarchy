@@ -66,7 +66,7 @@ class Role {
 	/** @var Role[] */
 	protected $children = [];
 	/** @var bool[] */
-	protected $combinedPermissions;
+	protected $combinedPermissions = [];
 
 	/** @var bool */
 	protected $hasAllPermissions = false;
